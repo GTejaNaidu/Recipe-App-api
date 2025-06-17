@@ -80,5 +80,5 @@ app.delete("/api/favorites/:userId/:recipeId", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log("Server is runing on PORT:5001");
+  console.log("Server is running on PORT:", PORT);
 });
